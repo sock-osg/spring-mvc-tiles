@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ 
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+ 
+<tiles-definitions>
+
+    <definition name="tileBase" template="/WEB-INF/jsp/templates/base_main.jsp">
+        <!-- Se puede setear desde el controller -->
+        <!-- <put-attribute name="description" expression="${info.description}" /> -->
+    	<put-attribute name="title" value="Orbital Zero" />
+        <put-attribute name="description" value="Orbital Zero" />
+        <put-attribute name="header" value="/WEB-INF/jsp/commons/header.jsp" />
+        <put-attribute name="menu" value="/WEB-INF/jsp/commons/blank.jsp"/>
+        <put-attribute name="content" value="/WEB-INF/jsp/commons/blank.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/jsp/commons/footer.jsp" />
+    </definition>
+    
+    <definition name="tileMain" extends="tileBase">
+    	<put-attribute name="title" value="OZ Main" />
+        <put-attribute name="description" value="OZ Main" />
+    </definition>
+
+</tiles-definitions>
