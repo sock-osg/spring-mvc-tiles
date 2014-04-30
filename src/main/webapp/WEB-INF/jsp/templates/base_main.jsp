@@ -15,11 +15,6 @@
 	    
 	    <link rel="icon" href="images/oz-logo.ico" sizes="32x32" />
 	    <link rel="shortcut icon" href="images/oz-logo.ico" type="image/x-icon" />
-	    
-        <link rel="stylesheet" type="text/css" href="css/normalize-2.1.2.css" />
-    	<link rel="stylesheet" type="text/css" href="css/main-style.css" />
-    	
-    	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     </head>
     <body>
 		<tiles:insertAttribute name="header" />
